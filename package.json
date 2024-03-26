@@ -1,0 +1,19 @@
+{
+    "name": "garthulux",
+    "version": "0.0.1",
+    "description": "Functions to send garfield comics through discord webhooks.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "Garfield"
+    ],
+    "author": "Shivranger",
+    "license": "ISC",
+    "dependencies": {
+      "discord.js": "^14.12.1",
+      "garfieldjs": "^1.0.0"
+    }
+  }
+  
