@@ -1,5 +1,5 @@
 const { WebhookClient } = require('discord.js');
-const {webhookId, webhookToken} = require("./config.json"); //or use the URL directly
+const {webhookId, webhookToken} = require("../config.json"); //or use the URL directly
 
 const sendComic = (data) => {
     const webhookClient = new WebhookClient({ id: webhookId, token: webhookToken });
